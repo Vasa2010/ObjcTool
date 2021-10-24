@@ -8,16 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		7055615927259D360061003D /* ObjcTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7055615727259D360061003D /* ObjcTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7055616827259D530061003D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055616727259D530061003D /* AppDelegate.m */; };
+		7055616B27259D530061003D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055616A27259D530061003D /* SceneDelegate.m */; };
+		7055616E27259D530061003D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055616D27259D530061003D /* ViewController.m */; };
+		7055617127259D530061003D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7055616F27259D530061003D /* Main.storyboard */; };
+		7055617327259D5C0061003D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7055617227259D5C0061003D /* Assets.xcassets */; };
+		7055617627259D5C0061003D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7055617427259D5C0061003D /* LaunchScreen.storyboard */; };
+		7055617927259D5D0061003D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055617827259D5D0061003D /* main.m */; };
+		7055618127259DAF0061003D /* OTNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 7055617F27259DAF0061003D /* OTNotification.h */; };
+		7055618227259DAF0061003D /* OTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 7055618027259DAF0061003D /* OTNotification.m */; };
+		7055618B27259E290061003D /* Objective C Tool - Guide.pages in Resources */ = {isa = PBXBuildFile; fileRef = 7055618A27259E290061003D /* Objective C Tool - Guide.pages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7055615427259D360061003D /* ObjcTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjcTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7055615727259D360061003D /* ObjcTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcTool.h; sourceTree = "<group>"; };
 		7055615827259D360061003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7055616427259D530061003D /* TestTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7055616627259D530061003D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7055616727259D530061003D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7055616927259D530061003D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7055616A27259D530061003D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7055616C27259D530061003D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7055616D27259D530061003D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7055617027259D530061003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7055617227259D5C0061003D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7055617527259D5C0061003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7055617727259D5C0061003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7055617827259D5D0061003D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7055617F27259DAF0061003D /* OTNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTNotification.h; sourceTree = "<group>"; };
+		7055618027259DAF0061003D /* OTNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTNotification.m; sourceTree = "<group>"; };
+		7055618A27259E290061003D /* Objective C Tool - Guide.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Objective C Tool - Guide.pages"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7055615127259D360061003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7055616127259D530061003D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -31,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				7055615627259D360061003D /* ObjcTool */,
+				7055616527259D530061003D /* TestTool */,
 				7055615527259D360061003D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				7055615427259D360061003D /* ObjcTool.framework */,
+				7055616427259D530061003D /* TestTool.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +80,39 @@
 		7055615627259D360061003D /* ObjcTool */ = {
 			isa = PBXGroup;
 			children = (
+				7055618A27259E290061003D /* Objective C Tool - Guide.pages */,
 				7055615727259D360061003D /* ObjcTool.h */,
+				7055617F27259DAF0061003D /* OTNotification.h */,
+				7055618027259DAF0061003D /* OTNotification.m */,
 				7055615827259D360061003D /* Info.plist */,
 			);
 			path = ObjcTool;
+			sourceTree = "<group>";
+		};
+		7055616527259D530061003D /* TestTool */ = {
+			isa = PBXGroup;
+			children = (
+				7055616C27259D530061003D /* ViewController.h */,
+				7055616D27259D530061003D /* ViewController.m */,
+				7055616F27259D530061003D /* Main.storyboard */,
+				7055617227259D5C0061003D /* Assets.xcassets */,
+				7055618727259DCE0061003D /* Res */,
+				7055617427259D5C0061003D /* LaunchScreen.storyboard */,
+				7055617727259D5C0061003D /* Info.plist */,
+			);
+			path = TestTool;
+			sourceTree = "<group>";
+		};
+		7055618727259DCE0061003D /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				7055617827259D5D0061003D /* main.m */,
+				7055616627259D530061003D /* AppDelegate.h */,
+				7055616727259D530061003D /* AppDelegate.m */,
+				7055616927259D530061003D /* SceneDelegate.h */,
+				7055616A27259D530061003D /* SceneDelegate.m */,
+			);
+			path = Res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,6 +122,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7055618127259DAF0061003D /* OTNotification.h in Headers */,
 				7055615927259D360061003D /* ObjcTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,6 +148,23 @@
 			productReference = 7055615427259D360061003D /* ObjcTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7055616327259D530061003D /* TestTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7055617A27259D5D0061003D /* Build configuration list for PBXNativeTarget "TestTool" */;
+			buildPhases = (
+				7055616027259D530061003D /* Sources */,
+				7055616127259D530061003D /* Frameworks */,
+				7055616227259D530061003D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTool;
+			productName = TestTool;
+			productReference = 7055616427259D530061003D /* TestTool.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +174,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					7055615327259D360061003D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7055616327259D530061003D = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -111,6 +195,7 @@
 			projectRoot = "";
 			targets = (
 				7055615327259D360061003D /* ObjcTool */,
+				7055616327259D530061003D /* TestTool */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +205,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7055618B27259E290061003D /* Objective C Tool - Guide.pages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7055616227259D530061003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7055617627259D5C0061003D /* LaunchScreen.storyboard in Resources */,
+				7055617327259D5C0061003D /* Assets.xcassets in Resources */,
+				7055617127259D530061003D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +226,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7055618227259DAF0061003D /* OTNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7055616027259D530061003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7055616E27259D530061003D /* ViewController.m in Sources */,
+				7055616827259D530061003D /* AppDelegate.m in Sources */,
+				7055617927259D5D0061003D /* main.m in Sources */,
+				7055616B27259D530061003D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7055616F27259D530061003D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7055617027259D530061003D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7055617427259D5C0061003D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7055617527259D5C0061003D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7055615A27259D360061003D /* Debug */ = {
@@ -300,6 +427,44 @@
 			};
 			name = Release;
 		};
+		7055617B27259D5D0061003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBLKTX5WJ2;
+				INFOPLIST_FILE = TestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasapolli.TestTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7055617C27259D5D0061003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MBLKTX5WJ2;
+				INFOPLIST_FILE = TestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vasapolli.TestTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -317,6 +482,15 @@
 			buildConfigurations = (
 				7055615D27259D360061003D /* Debug */,
 				7055615E27259D360061003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7055617A27259D5D0061003D /* Build configuration list for PBXNativeTarget "TestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7055617B27259D5D0061003D /* Debug */,
+				7055617C27259D5D0061003D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
